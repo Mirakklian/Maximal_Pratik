@@ -16,7 +16,7 @@ public class Maximal_pratik_vit {
     /**
      * @param args the command line arguments
      */
-    static int getLength(String str) {
+   public int getLength(String str) {
     int preInd = 0, currInd = 0, maxLen = 0;
     int strLen = str.length();
     HashSet<Character> characterSet = new HashSet<>();
@@ -42,6 +42,7 @@ public class Maximal_pratik_vit {
         String s;
         System.out.println("Enter the String: ");
         s=sc.next();
-        System.out.println(getLength(s));
+        Maximal_pratik_vit obj=new Maximal_pratik_vit();
+        System.out.println(obj.getLength(s));
    }
 }
